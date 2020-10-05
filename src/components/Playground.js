@@ -21,6 +21,7 @@ export default function Playground(props) {
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
   const [spinnerOn, setSpinnerOn] = useState(false)
+  const [weapon, setWeapon] = useState('scissors')
 
   // let count = 0 NOOOOOOOOOOO
 
