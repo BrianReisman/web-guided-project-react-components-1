@@ -22,7 +22,7 @@ import { render } from 'react-dom'
 */
 
 // we have MANY of these
-function foo(props) { // one object called "props"
+function App(props) { // one object called "props"
   return (
     <div className='container'>
       <h1>Welcome to React, Web {props.cohort}</h1>
@@ -33,6 +33,6 @@ function foo(props) { // one object called "props"
 
 // only once per app, usually
 render(
-  <foo cohort='36' instructor='Gabe' />, // element(s)
+  <App cohort='36' instructor='Gabe' />, // element(s)
   document.querySelector('#root')
 )
