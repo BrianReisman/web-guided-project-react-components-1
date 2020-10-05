@@ -21,6 +21,8 @@ export default function Playground(props) {
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
 
+  // let count = 0 NOOOOOOOOOOO
+
   return (
     <div className="container">
       <h3>Playground for Web {props.cohort}</h3>
