@@ -30,6 +30,6 @@ function App(props) { // one object called "props"
 }
 
 render(
-  <App cohort='36' />,
+  <App cohort='36' />, // element(s)
   document.querySelector('#root')
 )
