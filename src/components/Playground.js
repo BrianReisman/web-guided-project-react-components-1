@@ -20,7 +20,7 @@ export default function Playground(props) {
   // const count = theArray[0]
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
-  const [spinnerOn, setSpinnerOn] = useState(true)
+  const [spinnerOn, setSpinnerOn] = useState(false)
 
   // let count = 0 NOOOOOOOOOOO
 
@@ -37,7 +37,11 @@ export default function Playground(props) {
     <div className="container" id={'cohort' + props.cohort}>
       <h3>Playground for Web {props.cohort}</h3>
       <div>the count is {count}</div>
-      d
+      <div>the current weapon is scissors</div>
+
+      <button>pick scissors</button>
+      <button>pick rock</button>
+      <button>pick paper</button>
 
       <button onClick={event => { setCount(count + 1) }}>increase</button>
     </div>
