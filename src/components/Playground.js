@@ -14,15 +14,8 @@ export default function Playground(props) {
 
 
   return (
-    <>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-      <div className="container"></div>
-    </>
+    <div className="container">
+      <h3>Playground</h3>
+    </div>
   )
 }
