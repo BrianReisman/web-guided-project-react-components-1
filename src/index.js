@@ -21,6 +21,7 @@ import { render } from 'react-dom'
   - Don't forget all tags need to close correctly
 */
 
+// we have MANY of these
 function App(props) { // one object called "props"
   return (
     <div className='container'>
@@ -30,6 +31,7 @@ function App(props) { // one object called "props"
   )
 }
 
+// only once per app, usually
 render(
   <App cohort='36' instructor='Gabe' />, // element(s)
   document.querySelector('#root')
