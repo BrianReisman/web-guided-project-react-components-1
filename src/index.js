@@ -25,7 +25,7 @@ function App(props) { // one object called "props"
   return (
     <div className='container'>
       <h1>Welcome to React, Web {props.cohort}</h1>
-      <div> welcomes you!</div>
+      <div>{props.instructor} welcomes you!</div>
     </div>
   )
 }
