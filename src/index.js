@@ -39,6 +39,6 @@ function App(props) { // one object called "props"
 
 // only once per app, usually
 render(
-  <App cohort='35' instructor='Dustin' happy={false} />, // element(s)
+  <App cohort='35' instructor='Dustin' happy={false} week={2} />, // element(s)
   document.querySelector('#root')
 )
