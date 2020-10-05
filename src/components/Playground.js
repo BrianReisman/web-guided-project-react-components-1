@@ -20,6 +20,7 @@ export default function Playground(props) {
   // const count = theArray[0]
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
+  c
 
   // let count = 0 NOOOOOOOOOOO
 
