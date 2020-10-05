@@ -11,6 +11,9 @@
 import React, { useState } from 'react'
 
 export default function Playground(props) {
+  // useState allows to set internal state
+  // it is a function that takes that desired initial state
+  // returns an array with 2 things: the state itsef and a state changer
 
 
   return (
