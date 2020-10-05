@@ -23,10 +23,11 @@ import { render } from 'react-dom'
 
 // we have MANY of these
 function App(props) { // one object called "props"
+  const { cohort, instructor } = props
   return (
     <div className='container'>
-      <h1>Welcome to React, Web {props.cohort}</h1>
-      <div>{props.instructor} welcomes you!</div>
+      <h1>Welcome to React, Web {cohort}</h1>
+      <div>{instructor} welcomes you!</div>
     </div>
   )
 }
