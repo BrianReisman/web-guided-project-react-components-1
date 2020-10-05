@@ -33,7 +33,7 @@ function App(props) { // one object called "props"
 
       <div>It is week {week}</div>
 
-      <Playground></Playground>
+      <Playground cohort={cohort} />
 
     </div>
   )
@@ -41,6 +41,6 @@ function App(props) { // one object called "props"
 
 // only once per app, usually
 render(
-  <App cohort='35' instructor='Dustin' happy={false} week={2} />, // element(s)
+  <App cohort='36' instructor='Dustin' happy={false} week={2} />, // element(s)
   document.querySelector('#root')
 )
