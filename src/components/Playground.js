@@ -24,6 +24,14 @@ export default function Playground(props) {
 
   // let count = 0 NOOOOOOOOOOO
 
+  if (spinnerOn) {
+    return (
+      <div className='container'>
+        Loading...
+      </div>
+    )
+  }
+
   return (
     <div className="container" id={'cohort' + props.cohort}>
       <h3>Playground for Web {props.cohort}</h3>
