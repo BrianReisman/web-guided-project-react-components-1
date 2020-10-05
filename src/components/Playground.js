@@ -15,7 +15,7 @@ export default function Playground(props) {
 
   return (
     <div className="container">
-      <h3>Playground</h3>
+      <h3>Playground for Web {props.cohort}</h3>
     </div>
   )
 }
