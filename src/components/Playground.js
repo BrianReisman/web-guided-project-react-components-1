@@ -41,9 +41,9 @@ export default function Playground(props) {
       <button onClick={event => { setCount(count + 1) }}>increase</button>
 
       <div>the current weapon is {weapon}</div>
-      <button onClick={event => setWeapon()}>pick scissors</button>
-      <button onClick={event => setWeapon()}>pick rock</button>
-      <button onClick={event => setWeapon()}>pick paper</button>
+      <button onClick={event => setWeapon('scissors')}>pick scissors</button>
+      <button onClick={event => setWeapon('rock')}>pick rock</button>
+      <button onClick={event => setWeapon('paper')}>pick paper</button>
 
     </div>
   )
