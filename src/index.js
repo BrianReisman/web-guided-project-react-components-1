@@ -21,7 +21,7 @@ import { render } from 'react-dom'
   - Don't forget all tags need to close correctly
 */
 
-function App(props) {
+function App(props) { // one object called "props"
   return (
     <div className='container'>
       <h1>Welcome to React, Web {props.cohort}</h1>
