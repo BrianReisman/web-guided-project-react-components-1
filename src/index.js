@@ -29,7 +29,7 @@ function App(props) { // one object called "props"
       <h1>Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you!</div>
 
-      {happy ? <div>Very happy</div> : <div></div>}
+      {happy ? <div>Very happy</div> : <div>It is Monday</div>}
 
     </div>
   )
@@ -37,6 +37,6 @@ function App(props) { // one object called "props"
 
 // only once per app, usually
 render(
-  <App cohort='35' instructor='Dustin' happy={true} />, // element(s)
+  <App cohort='35' instructor='Dustin' happy={false} />, // element(s)
   document.querySelector('#root')
 )
