@@ -16,10 +16,10 @@ export default function Playground(props) {
   // returns an array with 2 things: the state itsef and a state changer
   // NO DECLARING VARIABLES TO HOLD STATE (with let)
 
-  const theArray = useState(0)
-  const count = theArray[0]
-  const setCount = theArray[1]
-  // const [count, setCount] = useState(0)
+  // const theArray = useState(0)
+  // const count = theArray[0]
+  // const setCount = theArray[1]
+  const [count, setCount] = useState(0)
 
   return (
     <div className="container">
