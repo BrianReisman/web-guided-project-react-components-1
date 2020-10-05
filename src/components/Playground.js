@@ -20,7 +20,7 @@ export default function Playground(props) {
   // const count = theArray[0]
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
-  const [spinnerOn, setSpinnerOn] = useState(false)
+  const [spinnerOn, setSpinnerOn] = useState(true)
   const [weapon, setWeapon] = useState('scissors')
 
   // let count = 0 NOOOOOOOOOOO
@@ -28,7 +28,7 @@ export default function Playground(props) {
   if (spinnerOn) {
     return (
       <div className='container'>
-        Loading...
+        Please wait. Loading...
         <button onClick={evt => setSpinnerOn(false)}>turn spinner off</button>
       </div>
     )
@@ -38,7 +38,7 @@ export default function Playground(props) {
     <div className="container" id={'cohort' + props.cohort}>
       <h3>Playground for Web {props.cohort}</h3>
       <div>the count is {count}</div>
-      <button onClick={event => { setCount(count++) }}>increase</button>
+      <button onClick={event => { setCount(count + 1) }}>increase</button>
 
       <div>the current weapon is {weapon}</div>
       <button onClick={event => setWeapon('scissors')}>pick scissors</button>
