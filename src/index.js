@@ -25,11 +25,12 @@ function App(props) { // one object called "props"
   return (
     <div className='container'>
       <h1>Welcome to React, Web {props.cohort}</h1>
+      <div> welcomes you!</div>
     </div>
   )
 }
 
 render(
-  <App cohort='36' />, // element(s)
+  <App cohort='36' instructor='Gabe' />, // element(s)
   document.querySelector('#root')
 )
