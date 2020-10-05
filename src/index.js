@@ -26,7 +26,7 @@ function App(props) { // one object called "props"
   const { cohort, instructor, happy, week } = props
   return (
     <div className='container'>
-      <h1>Welcome to React, Web {cohort}</h1>
+      <h1 id="mainHeading">Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you!</div>
 
       {happy ? <div>Very happy</div> : <div>It is Monday</div>}
