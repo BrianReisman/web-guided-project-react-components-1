@@ -22,7 +22,7 @@ import { render } from 'react-dom'
 */
 
 // we have MANY of these
-function App(props) { // one object called "props"
+function Foo(props) { // one object called "props"
   return (
     <div className='container'>
       <h1>Welcome to React, Web {props.cohort}</h1>
