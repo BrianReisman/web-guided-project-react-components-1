@@ -20,7 +20,7 @@ export default function Playground(props) {
   // const count = theArray[0]
   // const setCount = theArray[1]
   const [count, setCount] = useState(0)
-  c
+  const [spinnerOn, setSpinnerOn] = useState(true)
 
   // let count = 0 NOOOOOOOOOOO
 
