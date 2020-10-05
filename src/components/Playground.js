@@ -24,8 +24,8 @@ export default function Playground(props) {
   // let count = 0 NOOOOOOOOOOO
 
   return (
-    <div className="container">
-      <h3>Playground for Web {props.cohort} {`${props.cohort}`}</h3>
+    <div className="container" id={'cohort + props.cohort}>
+      <h3>Playground for Web {props.cohort}</h3>
       <div>the count is {count}</div>
 
       <button onClick={event => { setCount(count + 1) }}>increase</button>
