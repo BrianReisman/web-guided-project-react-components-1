@@ -38,7 +38,7 @@ export default function Playground(props) {
     <div className="container" id={'cohort' + props.cohort}>
       <h3>Playground for Web {props.cohort}</h3>
       <div>the count is {count}</div>
-      <button onClick={event => { setCount(count + 1) }}>increase</button>
+      <button onClick={event => { setCount(count++) }}>increase</button>
 
       <div>the current weapon is {weapon}</div>
       <button onClick={event => setWeapon('scissors')}>pick scissors</button>
