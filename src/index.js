@@ -33,6 +33,8 @@ function App(props) { // one object called "props"
 
       <div>It is week {week}</div>
 
+      <Playground></Playground>
+
     </div>
   )
 }
